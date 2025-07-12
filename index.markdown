@@ -16,9 +16,9 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
 
 <!-- Hero Section -->
 <section class="bg-gradient-to-r from-sky-900 to-slate-800 text-white py-28 px-6 text-center">
-  <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">Gepersonaliseerde HR-communicatie,<br><span class="text-lime-400">zonder fouten of frustratie</span></h1>
+  <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">Gepersonaliseerde HR-communicatie,<br><span class="text-lime-400">zonder fouten of frustratie</span></h1>
   <p class="text-xl md:text-2xl mb-10 max-w-2xl mx-auto">
-    Mailable helpt HR-teams om brieven en mails foutloos te versturen — zonder technische kennis.
+    Mailable helpt HR-teams om brieven en mails foutloos te versturen - zonder technische kennis.
   </p>
   <div class="flex flex-col sm:flex-row justify-center gap-4">
     <a href="#cta" class="bg-lime-400 text-slate-900 font-semibold py-4 px-8 rounded-full shadow-lg hover:bg-lime-300 transition">Vraag een demo aan</a>
@@ -27,7 +27,7 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
 </section>
 
 <!-- Frustraties Section -->
-<section class="bg-white py-24 px-6" id="frustraties">
+<section class="bg-white py-24 px-6" id="hoe-werkt-het">
   <div class="max-w-6xl mx-auto">
     <h2 class="text-4xl font-bold text-center mb-16 text-slate-800">Herkenbaar?</h2>
     <div class="grid md:grid-cols-2 gap-16">
@@ -109,8 +109,7 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
   <p class="mb-8 text-xl max-w-2xl mx-auto">
     Minder fouten. Minder stress. Meer tijd voor mensen.
   </p>
-  <a href="#" class="bg-lime-400 text-slate-900 font-semibold py-4 px-10 rounded-full shadow-lg hover:bg-lime-300 transition">Vraag een vrijblijvende demo aan</a>
-  <p class="text-sm mt-6 text-slate-300">Geen installatie nodig – direct aan de slag</p>
+  {% include contact-form.html %}
 </section>
 
 <!-- Footer -->
@@ -118,11 +117,6 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
     <div class="mb-6 md:mb-0">
       <strong class="text-white">Mailable</strong> – Persoonlijke HR-communicatie zonder gedoe
-    </div>
-    <div class="space-x-4 text-sm">
-      <a href="#" class="hover:text-white">Over ons</a>
-      <a href="#" class="hover:text-white">Privacybeleid</a>
-      <a href="mailto:support@mailable.nl" class="hover:text-white">Contact</a>
     </div>
   </div>
 </footer>
