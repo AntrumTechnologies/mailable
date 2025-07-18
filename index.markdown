@@ -105,6 +105,49 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
   </div>
 </section>
 
+<!-- Screenshots sectie-->
+<section class="bg-white py-16 px-4 md:px-12">
+  <div class="max-w-7xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-heading font-semibold mb-6">Product in action</h2>
+    <p class="text-gray-600 mb-10">Bekijk hoe eenvoudig het is om gepersonaliseerde brieven en e-mails te genereren met Mailable.</p>
+
+    <div class="glide relative">
+      <div class="glide__track overflow-visible" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide px-2 md:px-6">
+            <img src="/images/Mailable_page_1.png" alt="Screenshot 1" class="rounded-xl shadow-xl w-full md:w-[80vw] mx-auto">
+          </li>
+          <li class="glide__slide px-2 md:px-6">
+            <img src="/images/Mailable_page_2.png" alt="Screenshot 2" class="rounded-xl shadow-xl w-full md:w-[80vw] mx-auto">
+          </li>
+        </ul>
+      </div>
+
+      <div class="glide__bullets mt-6" data-glide-el="controls[nav]">
+        <button class="glide__bullet" data-glide-dir="=0"></button>
+        <button class="glide__bullet" data-glide-dir="=1"></button>
+        <button class="glide__bullet" data-glide-dir="=2"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Glide('.glide', {
+      type: 'carousel',
+      perView: 1.4, // Show 1 full + part of next
+      focusAt: 'center',
+      gap: 32,
+      breakpoints: {
+        768: {
+          perView: 1.05
+        }
+      }
+    }).mount();
+  });
+</script>
+
 <!-- CTA Section -->
 <section class="bg-sky-900 text-white py-28 px-6 text-center" id="cta">
   <h2 class="text-4xl font-bold mb-6">Laat Mailable het werk doen</h2>
