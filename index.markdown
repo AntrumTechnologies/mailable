@@ -8,9 +8,11 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
 
 
 <!-- Header met logo -->
-<header class="bg-slate-900 text-white py-4 px-6">
+<header class="sticky top-0 z-50 bg-slate-900 text-white py-4 px-6 shadow-xl">
   <div class="max-w-7xl mx-auto flex items-center justify-between">
-    <div class="text-2xl font-bold text-white tracking-tight">Mailable.pro</div>
+    <a href="/" class="flex items-center space-x-2">
+      <img src="/images/mailable.svg" alt="Mailable" class="h-8 w-auto" />
+    </a>
   </div>
 </header>
 
@@ -30,6 +32,9 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
 <section class="bg-white py-24 px-6" id="hoe-werkt-het">
   <div class="max-w-6xl mx-auto">
     <h2 class="text-4xl font-bold text-center mb-16 text-slate-800">Herkenbaar?</h2>
+    <div class="mb-16">
+      <img src="/images/problem-flow.svg" alt="Mailable" class="mx-auto w-full md:w-[80vw] max-w-4xl" />
+    </div>
     <div class="grid md:grid-cols-2 gap-16">
       <div class="bg-slate-50 p-8 rounded-2xl shadow-md">
         <h3 class="text-2xl font-semibold mb-6 text-slate-900">📄 Gepersonaliseerde brieven genereren</h3>
