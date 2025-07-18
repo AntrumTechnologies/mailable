@@ -108,7 +108,7 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
 <!-- Screenshots sectie-->
 <section class="bg-white py-16 px-4 md:px-12">
   <div class="max-w-7xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-heading font-semibold mb-6">Product in action</h2>
+    <h2 class="text-3xl md:text-4xl font-heading font-semibold mb-6">Mailable in actie!</h2>
     <p class="text-gray-600 mb-10">Bekijk hoe eenvoudig het is om gepersonaliseerde brieven en e-mails te genereren met Mailable.</p>
 
     <div class="glide relative">
