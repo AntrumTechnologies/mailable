@@ -164,7 +164,8 @@ title: Mailable – Persoonlijke HR-communicatie zonder gedoe
 <footer class="bg-slate-800 py-12 px-6 text-slate-300">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
     <div class="mb-6 md:mb-0">
-      <strong class="text-white">Mailable</strong> – Persoonlijke HR-communicatie zonder gedoe
+      <strong class="text-white">Mailable</strong> – Ontwikkeld door 
+      <a href="https://antrum-technologies.nl" class="underline hover:text-white">Antrum Technologies</a>
     </div>
   </div>
 </footer>
